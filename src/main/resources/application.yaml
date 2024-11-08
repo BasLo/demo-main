@@ -1,0 +1,13 @@
+spring:
+  liquibase:
+    url: jdbc:postgresql://localhost:5432
+  application:
+    name: demo-main
+  datasource:
+    url: jdbc:postgresql://localhost:5432
+    username: postgres
+    password: example
+    driver-class-name: org.postgresql.Driver
+    name: cars-db
+    hikari:
+      schema: public

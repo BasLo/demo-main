@@ -1,0 +1,2 @@
+### post brand with name
+POST http://{{URL}}:{{PORT}}/brand?name=AUDI
